@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    animeList: [],
+    animePage: [],
 }
 
 const HomePageSlice = createSlice({
@@ -9,7 +9,7 @@ const HomePageSlice = createSlice({
     initialState,
     reducers: {
         incrementCounter: (state, action) => {
-            state.animeList
+            state.animePage
         }
     }
 })
